@@ -62,7 +62,7 @@ socket.on("source",function(d){
     socket.on('disconnect', () => term.destroy());
   }else if(os_hanbetu=="darwin"){
     const pty = require("pty.js");
-    var term =pty.spawn('./yabasic',["source.yab"],{
+    var term =pty.spawn('./yabasic-mac',["source.yab"],{
       name:"xterm-256color",
       cols:80,
       rows:24
