@@ -1,5 +1,0 @@
-#!./yabasic
-
-clear screen
-print color("green") "hello,world!"
-
